@@ -22,7 +22,7 @@ class TestLoginCase(Mytest):
             verification="12345"
         )
         po = Login(self.driver).getErrorMsg()
-        self.assertEqual(po,"验证码不对",msg="测试用例预期结果不对！")
+        self.assertEqual(po,"验证码不对!",msg="测试用例预期结果不对！")
 
 
     def test_login2(self):
