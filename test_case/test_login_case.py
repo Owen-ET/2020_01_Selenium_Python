@@ -19,7 +19,7 @@ class TestLoginCase(Mytest):
         self.user_login_verify(
             username="13752752585",
             password="123456",
-            verification="12345"
+            verification="1234"
         )
         po = Login(self.driver).getErrorMsg()
         self.assertEqual(po,"验证码不对",msg="测试用例预期结果不对！")
