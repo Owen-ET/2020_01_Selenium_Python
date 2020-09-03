@@ -165,7 +165,7 @@ class GetVerification(object):
         # 输入用户名
         telephone = self.find_element(*self.telephone_loc)
         telephone.clear()
-        telephone.send_keys("13642040631")
+        telephone.send_keys("13752752585")
         # 输入密码
         password = self.find_element(*self.password_loc)
         password.clear()
@@ -205,7 +205,7 @@ class GetVerification(object):
         '''执行验证码登录操作'''
 
         # 打开浏览器并获取验证码图片
-        # self.open()
+        self.open()
         self.loopGetCode_action()
 
 
